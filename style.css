@@ -5,7 +5,7 @@
 }
 .part1{
     background: url(./bil/cover3.png) no-repeat center /cover;
-    min-height: 70vh;
+    min-height: 75vh;
 }
 .part1 .nav{
     display: flex;
@@ -26,11 +26,12 @@
 }
 .part1 .nav button{
     background-color: #23A6F0;
-    width: 12rem;
+    width: 11rem;
     height: 2.4rem;
     border:none;
     color: white;
     font-weight: 500;
+    cursor: pointer;
 }
 .part1 .nav .list ul{
     text-decoration: none;
@@ -46,7 +47,6 @@
     color: white;
     text-decoration: none;
     font-weight: 500;
-
 }
 .part1 .best{
     text-align: center;
@@ -68,7 +68,7 @@
 }
 .part1 .quote .one{
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: -1.25rem;
     background-color: #23A6F0;
     width: 8rem;
     height: 2.5rem;
@@ -76,6 +76,7 @@
     border-radius: 18px;
     color: white;
     font-weight: 700;
+    cursor: pointer;
 }
 .part1 .quote .two{
     text-align: center;
@@ -87,6 +88,7 @@
     border-radius: 18px;
     color: white;
     font-weight: 700;
+    cursor: pointer;
 }
 .part1 .sits{
     display: flex;
@@ -96,16 +98,18 @@
 .part1 .sits .mind{
     border: 1px solid white;
     padding: 1.5rem;
-    margin-right: 0.7rem;
+    margin-right: 1.7rem;
     background-color: white;
+    margin-bottom: -14.25rem;
 }
 .part1 .sits .cent{
     border: 1px solid #23A6F0;
     padding: 1.5rem;
-    margin-right: 0.7rem;
+    margin-right: 1.7rem;
     background-color: #23A6F0;
+    margin-bottom: -14.25rem;
 }
 .blank{
-    min-height: 30vh;
+    min-height: 25vh;
     background-color: rgb(241, 238, 238);
 }
