@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.part1{
+    background: url(./bil/cover3.png) no-repeat center /cover;
+}
+.part1 .nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.part1 .nav .list ul{
+    text-decoration: none;
+}
+.part1 .nav .list ul li{
+    display: inline-block;
+    list-style: none;
+}
