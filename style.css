@@ -5,7 +5,7 @@
 }
 .part1{
     background: url(./bil/cover3.png) no-repeat center /cover;
-    min-height: 80vh;
+    min-height: 70vh;
 }
 .part1 .nav{
     display: flex;
@@ -104,4 +104,8 @@
     padding: 1.5rem;
     margin-right: 0.7rem;
     background-color: #23A6F0;
+}
+.blank{
+    min-height: 30vh;
+    background-color: rgb(241, 238, 238);
 }
