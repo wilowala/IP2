@@ -10,10 +10,84 @@
     justify-content: space-around;
     padding: 20px;
 }
+.part1 .nav .become a{
+    color: white;
+    text-decoration: none;
+    padding: auto;
+    margin-right: 2rem;
+}
+.part1 .nav .brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.part1 .nav button{
+    background-color: #23A6F0;
+    width: 8rem;
+    height: 2rem;
+    border:none;
+    color: white;
+}
 .part1 .nav .list ul{
     text-decoration: none;
+    color: white;
+    margin-right: 2rem;
 }
 .part1 .nav .list ul li{
     display: inline-block;
+    padding: 0.4rem;
     list-style: none;
+}
+.part1 .nav .list ul li a{
+    color: white;
+    text-decoration: none;
+}
+.part1 .best{
+    text-align: center;
+    
+}
+.part1 .best h1{
+    line-height: 2.3rem;
+    margin-bottom: 2rem;
+}
+.part1 .quote{
+    text-align: center;
+    margin-top: 2rem;
+}
+.part1 .quote .one{
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: #23A6F0;
+    width: 8rem;
+    height: 2.5rem;
+    border: transparent;
+    border-radius: 18px;
+    color: white;
+}
+.part1 .quote .two{
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    width: 8rem;
+    height: 2.5rem;
+    border: 1px solid white;
+    border-radius: 18px;
+    color: white;
+}
+.part1 .sits{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.part1 .sits .mind{
+    border: 1px solid white;
+    padding: 0.5rem;
+    margin-right: 0.7rem;
+    background-color: white;
+}
+.part1 .sits .cent{
+    border: 1px solid #23A6F0;
+    padding: 0.5rem;
+    margin-right: 0.7rem;
+    background-color: #23A6F0;
 }
