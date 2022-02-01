@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 .part1{
     background: url(./bil/cover3.png) no-repeat center /cover;
+    min-height: 80vh;
 }
 .part1 .nav{
     display: flex;
@@ -15,6 +17,7 @@
     text-decoration: none;
     padding: auto;
     margin-right: 2rem;
+    font-weight: 500;
 }
 .part1 .nav .brand{
     font-size: 25px;
@@ -23,10 +26,11 @@
 }
 .part1 .nav button{
     background-color: #23A6F0;
-    width: 8rem;
-    height: 2rem;
+    width: 12rem;
+    height: 2.4rem;
     border:none;
     color: white;
+    font-weight: 500;
 }
 .part1 .nav .list ul{
     text-decoration: none;
@@ -41,14 +45,22 @@
 .part1 .nav .list ul li a{
     color: white;
     text-decoration: none;
+    font-weight: 500;
+
 }
 .part1 .best{
     text-align: center;
-    
+    color: white;
 }
 .part1 .best h1{
-    line-height: 2.3rem;
+    line-height: 3.8rem;
     margin-bottom: 2rem;
+    font-size: 56px;
+    margin-top: 5rem;
+}
+.part1 .best p{
+    font-weight: 700;
+    font-size: 20px;
 }
 .part1 .quote{
     text-align: center;
@@ -63,6 +75,7 @@
     border: transparent;
     border-radius: 18px;
     color: white;
+    font-weight: 700;
 }
 .part1 .quote .two{
     text-align: center;
@@ -73,6 +86,7 @@
     border: 1px solid white;
     border-radius: 18px;
     color: white;
+    font-weight: 700;
 }
 .part1 .sits{
     display: flex;
@@ -81,13 +95,13 @@
 }
 .part1 .sits .mind{
     border: 1px solid white;
-    padding: 0.5rem;
+    padding: 1.5rem;
     margin-right: 0.7rem;
     background-color: white;
 }
 .part1 .sits .cent{
     border: 1px solid #23A6F0;
-    padding: 0.5rem;
+    padding: 1.5rem;
     margin-right: 0.7rem;
     background-color: #23A6F0;
 }
