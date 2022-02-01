@@ -113,3 +113,38 @@
     min-height: 25vh;
     background-color: rgb(241, 238, 238);
 }
+.part2 {
+    min-height: 50vh;
+}
+.part2 .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.part2 .container .pm {
+    margin: 4rem;
+    text-align: center;
+    padding: 2rem;
+}
+.part2 .container .pmi {
+    margin: 4rem;
+    text-align: center;
+    padding: 2rem;
+}
+.part2 .container .pml {
+    margin: 4rem;
+    text-align: center;
+    padding: 2rem;
+}
+.part2 .container .pm img{
+    width: 50%;
+    height: auto;
+}
+.part2 .container .pmi img{
+    width: 55%;
+    height: auto;
+}
+.part2 .container .pml img{
+    width: 56%;
+    height: auto; 
+}
