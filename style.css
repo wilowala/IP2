@@ -263,7 +263,7 @@
     border: 1px solid #23A6F0;
     border-radius: 8px;
     padding: 2rem;
-    background-color: #252B42
+    background-color: #252B42;
 }
 .part5 .blue .free h1{
     text-align: center;
@@ -353,4 +353,83 @@
 }
 .part5 .blue .fre{
     margin-top: -2rem;
+}
+.part6{
+    background-color: #252B42;
+    padding: 4rem;
+    height: 80vh;
+}
+.part6 .world{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.part6 .world .over{
+    padding-left: 4rem;
+}
+.part6 .world .over h1{
+    color: white;
+    padding: 1rem 0;
+    font-size: 38px;
+    font-weight: 600;
+}
+.part6 .world .over p{
+    line-height: 1.35rem;
+    color: white;
+    font-weight: 500;
+    font-size: 14.8px;
+}
+.part6 .world .map{
+    padding: 3rem;
+    justify-content: center;
+    margin-right: -4rem;
+}
+.part6 .world .map img{
+    width: 70%;
+}
+.part6 .point{
+    margin-top: 3rem;
+}
+.part6 .point form{
+    display: flex;
+    justify-content: center;
+}
+.part6 .point form .ap img{
+    width: 55%;
+    margin-right: -6rem;
+    height: 100%;
+}
+.part6 .point form .ment{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    padding: 5.4rem 5.4rem 5.4rem 3rem;
+    margin-left: -12.3rem;
+}
+.part6 .point form .ment h2{
+    color: #252B42;
+}
+.part6 .point form .ment label{
+    color: #252B42;
+    font-weight: 600;
+    padding: 0.9rem;
+}
+.part6 .point form .ment input{
+    padding: 0.7rem;
+    border-radius: 4px;
+    border: 1px solid rgb(241, 238, 238);
+    background-color: rgb(241, 238, 238);
+    color: #252B42;
+    width: 110%;
+}
+.part6 .point form .ment button{
+    margin: 2rem 0 -3rem 0;
+    width: 120%;
+    height: 2.7rem;
+    border: 1px solid #23A6F0;
+    border-radius: 4px;
+    background-color: #23A6F0;
+    color: white;
+    font-weight: 600;
 }
