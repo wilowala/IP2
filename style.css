@@ -237,3 +237,120 @@
     color: white;
     border-radius: 0 5px 5px 0;
 }
+.part5{
+    background-color: rgb(241, 238, 238);
+    padding: 3rem;
+}
+.part5 .blue{
+    display: flex;
+    justify-content: center;
+}
+.part5 .free .inl{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #23A6F0;
+}
+.part5 .blue .free{
+    border: 1px solid #23A6F0;
+    border-radius: 8px;
+    padding: 2rem;
+    background-color: white;
+}
+.part5 .blue .fre{
+    border: 1px solid #23A6F0;
+    border-radius: 8px;
+    padding: 2rem;
+    background-color: #252B42
+}
+.part5 .blue .free h1{
+    text-align: center;
+    padding: 1rem;
+    font-weight: 600;
+}
+.part5 .blue .free .org{
+    margin-left: 1rem;
+    padding: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.part5 .blue .fre h1{
+    text-align: center;
+    padding: 1rem;
+    font-weight: 600;
+    color: white;
+}
+.part5 .blue .fre .org{
+    text-align: center;
+    padding: 1rem;
+    font-weight: 500;
+    color: white;
+}
+.part5 .blue .free ul{
+    list-style: none;
+    line-height: 2.7rem;
+}
+.part5 .blue .free ul i{
+    color: green;
+}
+.part5 .blue .free ul .grey .fa-check-circle{
+    color: grey;
+}
+.part5 .blue .fre ul{
+    list-style: none;
+    color: white;
+    line-height: 2.7rem;
+}
+.part5 .blue .fre ul i{
+    color: green;
+}
+.part5 .blue .fre ul .grey .fa-check-circle{
+    color: grey;
+}
+.part5 .blue .free .zero{
+    font-size: 24px;
+    color: #23A6F0;
+    margin-left: 1.7rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+.part5 .blue .fre .inl{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #23A6F0;
+}
+.part5 .blue .fre .zero{
+    font-size: 24px;
+    color: #23A6F0;
+    margin-left: 3.3rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+.part5 .blue .free button{
+    margin: 0 2rem 0 1.3rem;
+    width: 80%;
+    height: 3rem;
+    border: 1px solid #23A6F0;
+    border-radius: 5px;
+    background-color: #23A6F0;
+    color: white;
+    font-weight: 500;
+}
+.part5 .blue .fre button{
+    margin: 0 2rem 0 1.3rem;
+    width: 80%;
+    height: 3rem;
+    border: 1px solid #23A6F0;
+    border-radius: 5px;
+    background-color: #23A6F0;
+    color: white;
+    font-weight: 500;
+}
+.part5 .blue .fre{
+    margin-top: -2rem;
+}
