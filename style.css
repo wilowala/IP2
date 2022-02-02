@@ -432,4 +432,31 @@
     background-color: #23A6F0;
     color: white;
     font-weight: 600;
+    cursor: pointer;
+}
+.part7{
+    background-color: rgb(241, 238, 238);
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.part7 .busi{
+    margin-top: 30%;
+    padding-left: 4rem;
+    line-height: 1.8rem;
+}
+.part7 .ness{
+    margin-top: 30%;
+    padding-right: 4rem;
+    line-height: 1.8rem;
+}
+.part7 .ness button{
+    width: 10rem;
+    height: 3.3rem;
+    border: 1px solid #23A6F0;
+    border-radius: 8px;
+    background-color: #23A6F0;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
 }
