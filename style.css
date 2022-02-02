@@ -460,3 +460,48 @@
     font-weight: 600;
     cursor: pointer;
 }
+.part8{
+    display: flex;
+    padding: 4rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.part8 .info{
+    line-height: 1.7rem;
+}
+.part8 .info ul{
+    list-style: none;
+}
+.part8 .legal{
+    line-height: 1.7rem;
+}
+.part8 .legal ul{
+    list-style: none;
+}
+.part8 .features{
+    line-height: 1.7rem;
+}
+.part8 .features ul{
+    list-style: none;
+}
+.part8 .resouces{
+    line-height: 1.7rem;
+}
+.part8 .resouces ul{
+    list-style: none;
+}
+.part8 .get{
+    line-height: 2.2rem;
+}
+.part8 .get ul{
+    list-style: none;
+}
+.part8 .get ul li .fa-map-marker-alt{
+    color: #23A6F0;
+}
+.part8 .get ul li .fa-phone-square-alt{
+    color: #23A6F0;
+}
+.part8 .get ul li .fa-envelope{
+    color: #23A6F0;
+}
