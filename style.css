@@ -505,3 +505,24 @@
 .part8 .get ul li .fa-envelope{
     color: #23A6F0;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(240, 239, 239);
+    padding: 0.5rem 4rem 0.5rem 4rem;
+}
+footer .made p{
+    padding-left: 4rem;
+    font-weight: 500;
+}
+footer .right ul{
+    list-style: none;
+    padding-right: 4rem;
+    font-size: 20px;
+}
+footer .right ul li{
+    display: inline-block;
+    padding: 0.6rem;
+    color: #23A6F0;
+}
