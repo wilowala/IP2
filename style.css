@@ -189,3 +189,51 @@
     width: 8%;
     margin-bottom: 1.8rem;
 }
+.part4{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 238, 238);
+    padding: 4rem;
+}
+.part4 .images{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+.part4 .images img{
+    width: 8%;
+    height: 6rem;
+}
+.part4 .sub{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    background: linear-gradient(to right, rgb(25, 25, 128), rgb(224, 72, 98));
+    margin: 3rem;
+}
+.part4 .sub .latest{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.part4 .sub .email input{
+    width: 22rem;
+    height: 2.05rem;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5px 0 0 5px;
+}
+.part4 .sub .email button{
+    width: 11rem;
+    height: 4.2rem;
+    padding: 1rem;
+    background-color: #23A6F0;
+    cursor: pointer;
+    border: 1px solid white;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
