@@ -7,7 +7,7 @@
 ### By William Owalla 
 
 ## Description
-This is a partr of Moringa Schhol subsequent independent project meant to assess the abitlity to implement the content learnt over week two.
+This is a part of Moringa School subsequent independent project meant to assess the abitlity to implement the content learnt over week two.
 
 ## Setup/Installations Instructions
 * Ensure that you can access a browser.
