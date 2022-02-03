@@ -12,6 +12,9 @@
     justify-content: space-around;
     padding: 20px;
 }
+.part1 .nav .ame{
+    display: none;
+}
 .part1 .nav .become a{
     color: white;
     text-decoration: none;
@@ -109,9 +112,104 @@
     background-color: #23A6F0;
     margin-bottom: -18.25rem;
 }
+@media screen and (max-width:768px) {
+    .part1{
+        background: url(./bil/cover3.png) no-repeat center /cover;
+        min-height: 110vh;
+    }
+    .part1 .nav{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(240, 238, 238);
+    }
+    .part1 .nav .become{
+        display: none;
+    }
+    .part1 .nav .dis{
+        display: flex;
+        justify-content: space-between;
+    }
+    .part1 .nav .dis .brand{
+        font-size: 24px;
+        color: rgb(53, 50, 50);
+    }
+    .part1 .nav .dis .ame{
+        display: flex;
+    }
+    .part1 .nav .dis .ame i{
+        padding: 0.5rem;
+        color: rgb(88, 82, 82);
+    }
+    .part1 .nav .list ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0 1.5rem 0;
+        margin: 2rem 0;
+    }
+    .part1 .nav .list ul li a{
+        color: rgb(88, 82, 82);
+        line-height: 2rem;
+        font-weight: 600;
+    }
+    .part1 .best h1{
+        font-size: 24px;
+        line-height: 1.8rem;
+    }
+    .part1 .best p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .part1 .quote{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .part1 .quote button{
+        margin: 2.3rem;
+    }
+    .part1 .sits{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .part1 .sits .mind{
+        margin-left: 5rem;
+        margin-top: -10rem;
+        width: 35%;
+    }
+    .part1 .sits .mind img{
+        width: 30%;
+    }
+    .part1 .sits .mind h3{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .part1 .sits .mind p{
+        font-size: 12px;
+
+    }
+    .part1 .sits .cent{
+        margin-left: 5rem;
+        margin-top: -10rem;
+        width: 35%;
+    }
+    .part1 .sits .cent img{
+        width: 30%;
+    }
+    .part1 .sits .cent h3{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .part1 .sits .cent p{
+        font-size: 12px;
+
+    }
+}
 .blank{
     min-height: 25vh;
-    background-color: rgb(241, 238, 238);
+    background-color: rgb(240, 238, 238);
 }
 .part2 {
     min-height: 50vh;
@@ -148,8 +246,15 @@
     width: 56%;
     height: auto; 
 }
+@media screen and (max-width:768px) {
+    .part2 .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
 .part3{
-    background-color: rgb(241, 238, 238);
+    background-color: rgb(240, 238, 238);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -189,10 +294,25 @@
     width: 8%;
     margin-bottom: 1.8rem;
 }
+@media screen and (max-width:768px) {
+   .part3 h1{
+       font-size: 24px;
+   } 
+   .part3 p{
+       font-size: 14px;
+   }
+   .part3 .third{
+       display: flex;
+       flex-direction: column;
+   }
+   .part3 .third .Items{
+       margin: 1rem 0;
+   }
+}
 .part4{
     display: flex;
     flex-direction: column;
-    background-color: rgb(241, 238, 238);
+    background-color: rgb(240, 238, 238);
     padding: 4rem;
 }
 .part4 .images{
@@ -237,8 +357,47 @@
     color: white;
     border-radius: 0 5px 5px 0;
 }
+@media screen and (max-width:768px) {
+    .part4 .images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .part4 .images img{
+        width: 50%;
+        padding: 2rem;
+    }
+    .part4 .sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 -4rem -4rem -4rem;
+    }
+    .part4 .sub .latest{
+        font-size: 20px;
+        text-align: center;
+        margin-top: -1.8rem;
+    }
+    .part4 .sub .email{
+        padding: 0.8rem;
+        margin: 0 -2rem -2rem -2rem;
+    }
+    .part4 .sub .email input{
+        width: 9rem;
+        height: 2.87rem;
+        padding: 0;
+        font-size: 12px;
+    }
+    .part4 .sub .email button{
+        width: 6rem;
+        height: 3rem;
+        padding: 0;
+        font-size: 12px;
+    }
+}
 .part5{
-    background-color: rgb(241, 238, 238);
+    background-color: rgb(240, 238, 238);
     padding: 3rem;
 }
 .part5 .blue{
@@ -354,6 +513,19 @@
 .part5 .blue .fre{
     margin-top: -2rem;
 }
+@media screen and (max-width:768px) {
+    .part5 .blue{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .part5 .blue .free{
+        margin: 1rem 0;
+    }
+    .part5 .blue .fre{
+        margin: 1rem 0;
+    }
+}
 .part6{
     background-color: #252B42;
     padding: 4rem;
@@ -418,8 +590,8 @@
 .part6 .point form .ment input{
     padding: 0.7rem;
     border-radius: 4px;
-    border: 1px solid rgb(241, 238, 238);
-    background-color: rgb(241, 238, 238);
+    border: 1px solid rgb(240, 238, 238);
+    background-color: rgb(240, 238, 238);
     color: #252B42;
     width: 110%;
 }
@@ -434,8 +606,43 @@
     font-weight: 600;
     cursor: pointer;
 }
+@media screen and (max-width:768px) {
+    .part6 .world{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .part6 .world .over{
+        margin-left: -4rem;
+    }
+    .part6 .world .over h1{
+        font-size: 26px;
+    }
+    .part6 .world .over p{
+        font-size: 14px;
+    }
+    .part6 .point form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .part6 .point form .ap{
+        margin-left: -11.6rem;
+        margin-top: -4rem;
+        max-height: 10rem;
+    }
+    .part6 .point form .ap img{
+        width: 200%;
+        height: 13.3rem;
+    }
+    .part6 .point form .ment{
+        margin: -.2rem -4rem 10rem -4rem;
+    }
+}
 .part7{
-    background-color: rgb(241, 238, 238);
+    background-color: rgb(240, 238, 238);
     padding: 4rem;
     display: flex;
     justify-content: space-between;
@@ -459,6 +666,21 @@
     color: white;
     font-weight: 600;
     cursor: pointer;
+}
+@media screen and (max-width:768px) {
+    .part7{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 40rem;
+    }
+    .part7 .busi{
+        margin-left: -4rem;
+    }
+    .part7 .ness{
+        margin-right: -4rem;
+    }
 }
 .part8{
     display: flex;
@@ -512,6 +734,28 @@ footer{
     background-color: rgb(240, 239, 239);
     padding: 0.5rem 4rem 0.5rem 4rem;
 }
+@media screen and (max-width:768px) {
+    .part8{
+        display: flex;
+        flex-direction: column;
+        margin: -2rem;
+    }
+    .part8 .info{
+        margin-left: -6rem;
+    }
+    .part8 .legal{
+        margin-left: -8rem;
+    }
+    .part8 .resouces{
+        margin-left: -7.8rem;
+    }
+    .part8 .features{
+        margin-left: -5rem;
+    }
+    .part8 .get{
+        margin-left: -1rem;
+    }
+}
 footer .made p{
     padding-left: 4rem;
     font-weight: 500;
@@ -525,4 +769,19 @@ footer .right ul li{
     display: inline-block;
     padding: 0.6rem;
     color: #23A6F0;
+}
+@media screen and (max-width:768px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .made{
+        margin-left: -3rem;
+    }
+    footer .made p{
+        font-size: 12px;
+    }
+    footer .right{
+        margin-right: -3rem;
+    }
 }
